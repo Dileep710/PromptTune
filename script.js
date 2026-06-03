@@ -149,7 +149,7 @@ async function callGROQ(userPrompt) {
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer ENTER_API_KEY",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
